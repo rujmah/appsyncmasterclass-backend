@@ -1,0 +1,24 @@
+{
+  "name": "appsyncmasterclass-backend",
+  "version": "1.0.0",
+  "description": "Backend for the burningmonk AppSync Masterclass",
+  "main": "index.js",
+  "scripts": {
+    "sls": "./node_modules/.bin/sls"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rujmah/appsyncmasterclass-backend.git"
+  },
+  "keywords": [],
+  "author": "Robin Mayfield <robin@degu.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rujmah/appsyncmasterclass-backend/issues"
+  },
+  "homepage": "https://github.com/rujmah/appsyncmasterclass-backend#readme",
+  "devDependencies": {
+    "serverless": "2.4.0",
+    "serverless-appsync-plugin": "^1.6.0"
+  }
+}
